@@ -1,0 +1,7 @@
+Hello normal:
+
+Se puede notar que, efectivamente, al momento de pasarle 4 hilos al programa, entonces el código nos ejecuta de manera paralela el print de Hello World. Asimismo, se puede notar que se declaró una sección paralela en donde se lleva el conteo efectivo de los threads para que se ejectute de manera correcta y exacta el código. El código se corría de la siguiente manera: ./hello 4.
+
+Hello modificado: 
+
+En la segunda versión de este hello, se agregó un contador de hilos, un identificador de hilos y un total de threads, con el fin de poder saber a detalle la cantidad y el tipo de hilos que se están utilizando dentro de la ejecución. Por otro lado, se hizo un cálculo del módulo de los hilos para identificar si éstos eran pares o impares. Con lo anterior mencionado, se hizo lo siguiente, si el hilo era par, entonces se imprimía un saludo por parte del programa y si el hilo era impar, entonces se imprimía un feliz cumpleaños. Finalmente, cabe mencionar que el código se debe correr de la siguiente manera: ./hello edad. 

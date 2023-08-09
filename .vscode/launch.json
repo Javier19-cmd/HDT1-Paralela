@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/home/user/Documents/GitHub/HDT1-Paralela",
-      "program": "/home/user/Documents/GitHub/HDT1-Paralela/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "c:/Users/sebas/Documents/GitHub/HDT1-Paralela",
+      "program": "c:/Users/sebas/Documents/GitHub/HDT1-Paralela/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
