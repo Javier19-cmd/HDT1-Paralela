@@ -1,0 +1,14 @@
+Discusion del programa:
+
+Se define el intervalo [a,b] en las constantes A, B, y el
+numero de subintervalos N.
+Se declara la funcion f que calcula el valor de la 
+funcion a integrar
+La funcion trapezoides calcula la aproximacion de la 
+integral usando el metodo de trapecios de Riemann. Los 
+parametros de entrada son los limites del intervalo y el
+numero de subintervalos.
+En la funcion main se verifica si se proporcionan argumentos
+de linea de comandos para ajustar los limites del intervalo [a,b].
+Despues ya se llama a la funcion trapezoides para obtener una
+aproximacion de la integral y se imprime el resultado.
